@@ -1,0 +1,6 @@
+.extraSidebar{
+    width: 340px;
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+    border-left: 1px solid var(--border-color);
+}

@@ -1,0 +1,51 @@
+.chatSidebar {
+    margin-top: 60px;
+    width: 340px;
+    height: calc(100vh - 60px);
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--border-color);
+    overflow-y: auto;
+    z-index: 10;
+    background: var(--secondary-bg);
+}
+
+.chatSidebar::-webkit-scrollbar {
+    width: 5px;
+}
+
+.chatSidebar::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+}
+
+.chatSideTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem 1rem;
+}
+
+.cstHead {
+    font-weight: 600;
+    color: var(--primary-text);
+}
+
+.groupBtn {
+    display: inline-flex;
+    align-items: center;
+    background: var(--app-color);
+    color: var(--common-color);
+    border: none;
+    outline: none;
+    padding: .5rem .8rem;
+    border-radius: 100px;
+    cursor: pointer;
+    gap: .2rem;
+}
+
+.chatSideChats {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}

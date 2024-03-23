@@ -1,0 +1,54 @@
+.searchSide {
+    width: 100%;
+    height: 100%;
+    background: var(--secondary-color);
+    font-size: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow-y: auto;
+}
+
+.searchSide::-webkit-scrollbar {
+    width: 5px;
+}
+
+.searchSide::-webkit-scrollbar-thumb {
+    background: #ddd;
+}
+
+.searchSide form {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: 100%;
+}
+
+.searchSide form .inputField{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.searchSide form input {
+    border: 1px solid #222;
+    padding: .62rem 1rem;
+    outline: none;
+    width: 100%;
+    border-radius: 200px;
+}
+
+.searchBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    min-width: 40px;
+    background: var(--app-color);
+    color: var(--secondary-color);
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+}

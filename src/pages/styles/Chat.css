@@ -1,0 +1,7 @@
+.chat {
+    background: var(--primary-bg);
+}
+
+.chatMain {
+    display: flex;
+}
